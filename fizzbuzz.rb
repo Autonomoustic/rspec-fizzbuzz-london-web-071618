@@ -6,7 +6,7 @@ def fizzbuzz(int)
   elsif int % 5 == 0
     return "Buzz"
     binding.pry
-  elsif int fizzbuzz(15)
+  elsif fizzbuzz(15)
     return "Fizzbuzz"
   else
     puts "Fizzbuzz"
